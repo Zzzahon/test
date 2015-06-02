@@ -1,2 +1,3 @@
 # .gitignore file
 testpro/app1/migrations/
+**/*.pyc
