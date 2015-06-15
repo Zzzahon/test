@@ -14,7 +14,7 @@ function WS4Redis(options, $) {
 	connect(opts.uri);
 
 	function connect(uri) {
-
+	console.log('TRYING!!!!!');
 		try {
 			console.log("Connecting to " + uri + " ...");
 			deferred = $.Deferred();
